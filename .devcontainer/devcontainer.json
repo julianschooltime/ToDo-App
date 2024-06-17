@@ -1,0 +1,8 @@
+{
+    "name": "Node.js & PostgreSQL",
+    "dockerComposeFile": "doker-compose.yml",
+    "postCreateCommand": "npm install",
+    "forwardPorts": [3000],
+    "appPort": ["3000:3000"]
+}
+  
